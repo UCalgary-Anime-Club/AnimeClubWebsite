@@ -5,6 +5,7 @@ body {
 .heading {
   font-size: 30px;
   color: rgb(197, 152, 5);
+  font-weight: 700;
 }
 
 .text {

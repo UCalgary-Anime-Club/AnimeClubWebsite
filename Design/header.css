@@ -35,14 +35,19 @@
   color: rgb(197, 152, 5);
 }
 .right-section {
-  width: 450px;
+  width: 550px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 50px;
 }
 
-.jump-about, .jump-events, .jump-contact {
+.jump-about, .jump-events, .jump-sponsers, .jump-contact {
   font-size: 30px;
   color: rgb(197, 152, 5);
+}
+
+.jump-about:hover, .jump-events:hover, .jump-sponsers:hover, .jump-contact:hover {
+  color: rgb(226, 223, 58);
+  cursor: pointer;
 }
