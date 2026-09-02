@@ -1,5 +1,5 @@
 .header {
-  height: 100px;
+  height: 150px;
 
   display: flex;
   flex-direction: row;
@@ -9,7 +9,8 @@
   top: 0;
   right: 0;
   left: 0;
-  background-color: rgb(167, 19, 19);
+  background-color: rgb(95, 4, 4);
+  
 
   
   font-weight: 700;
@@ -26,18 +27,22 @@
   align-items: center;
 }
 
+
+
 .club-name {
   margin-left: 40px;
   font-size: 40px;
   color: rgb(197, 152, 5);
 }
 .right-section {
+  width: 450px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 50px;
 }
 
-.jump-home, .jump-about, .jump-events, .jump-contact {
+.jump-about, .jump-events, .jump-contact {
   font-size: 30px;
   color: rgb(197, 152, 5);
 }
