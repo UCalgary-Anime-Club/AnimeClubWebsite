@@ -36,6 +36,8 @@
 }
 
 .upcoming-events {
+  font-family: "Times New Roman";
+  font-weight: 700;
   width: 400px;
   height: 100px;
   border-radius: 30px;

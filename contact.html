@@ -10,9 +10,9 @@
     <header class="header">
       <div class="left-section">
         <img class="logo">
-        <div class="club-name">
+        <a class="club-name" href="homepage.html">
           Logo
-        </div>
+        </a>
       </div>
 
       <nav>
@@ -20,7 +20,7 @@
           <a href="about.html">
             About Us
           </a>
-          <a href="#events">
+          <a href="homepage.html#events">
             Events
           </a>
           <a href="sponsers.html">
@@ -43,47 +43,63 @@
             </p>
           </div>
 
-          <div>
+          <form id="contactForm">
             <p class="heading">
-            What is your name?
-          </p>
-          <input class="name-bar" type="text" placeholder="Your Name">
-          </div>
-          
-          <div>
-          <p class="heading">
-            What is your email?
-          </p>
-          <input class="email-bar" type="text" placeholder="Your Email">
-          </div>
+              What is your name?
+            </p>            
+            <input class="name-bar" type="text" id="name" placeholder="Your Name">
+            
+            <p class="heading">
+              What is your email address?
+            </p>
+            <input class="email-bar" type="email" id="email" placeholder="Your email">
+            
+            <p class="heading">
+              What is your message?
+            </p>
+            <textarea class="message-bar" id="message" placeholder="Your message"></textarea>
+            
 
-          <div>
-          <p class="heading">
-            Tell us about yourself!
-          </p>
-          <input class="about-you" type="text" placeholder="Your Message">
-          </div>
+            <button class="send" type="submit">
+              Send
+            </button>
+          </form>
           
-
-          <button class="send">
-            Send
-          </button>
 
           <p class="heading">
             Follow Our Socials!
           </p>
-          <p class="text">
-            LinkTree
-          </p>
-          <p class="text">
-            Instagram
-          </p>
-          <p class="text">
-            Discord
-          </p>
+
+          <div class="socials">
+            <div class="linktree">
+              <img class="socials-pic" src="pictures/LinkTree.png">
+              <a href="https://linktr.ee/animeclubuofc" target="_blank">
+                LinkTree
+              </a>
+            </div>
+            
+            <div class="instagram">
+              <img class="socials-pic" src="pictures/Instagram.png">
+              <a href="https://www.instagram.com/animeclubuofc/" target="_blank">
+                Instagram
+              </a>
+            </div>
+            
+            <div class="discord">
+              <img class="socials-pic" src="pictures/Discord.png">
+              <a href="https://discord.gg/wBKq22DBD" target="_blank">
+                Discord
+              </a>
+            </div>
+            
+          </div>
+          
+          
+          
 
     </div>
   </section>
+
   </body>
   
 </html>
