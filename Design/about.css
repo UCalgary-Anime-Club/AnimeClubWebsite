@@ -34,3 +34,11 @@
   text-align: center;
 }
 
+.name, .position {
+  color: rgb(197, 152, 5);
+}
+
+.name {
+  font-size: 23px;
+  font-weight: 700;
+}
