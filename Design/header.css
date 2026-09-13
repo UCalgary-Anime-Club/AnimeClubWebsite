@@ -1,5 +1,5 @@
 .header {
-  height: 150px;
+  height: 130px;
 
   display: flex;
   flex-direction: row;
@@ -42,18 +42,56 @@
   align-items: center;
   justify-content: space-between;
   margin-right: 50px;
+  flex-shrink: 1;
 }
 
-.jump-about, .jump-events, .jump-sponsers, a {
-  font-size: 30px;
-  color: rgb(197, 152, 5);
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: rgb(153, 82, 82);
+  align-items: center;
+  padding-bottom: 20px;
+
+
 }
 
-.jump-about:hover, .jump-events:hover, .jump-sponsers:hover, a:hover {
-  color: rgb(226, 223, 58);
-  cursor: pointer;
+
+.menu-icon {
+  display: none;
+  width: 50px;
+  margin-right: 50px;
 }
+
+@media (max-width: 750px) {
+  .right-section {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-right: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+
+  .dropdown-menu.open {
+    display: flex;
+  }
+}
+
 
 a {
+  font-size: 30px;
+  color: rgb(197, 152, 5);
   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(226, 223, 58);
+  cursor: pointer;
 }
