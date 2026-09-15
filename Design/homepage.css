@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 750px) {
+  .banner {
+    margin-top: 100px;
+  }
+
   .home {
     flex-direction: column;
   }

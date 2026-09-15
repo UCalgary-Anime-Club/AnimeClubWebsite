@@ -1,6 +1,17 @@
+const body = document.body;
 const menuIcon = document.getElementById("menuIcon");
-const dropdownMenu = document.getElementById("dropdownMenu");
+const sildeinMenu = document.getElementById("slideinnMenu");
 
-menuIcon.addEventListener("click", function() {
-  dropdownMenu.classList.toggle("open");
+menuIcon.addEventListener("click", function(event) {
+  event.stopPropagation();
+  slideinMenu.classList.toggle("open");
 })
+
+slideinMenu.addEventListener("click", function(event) {
+  event.stopPropagation();
+})
+
+body.addEventListener("click", function() {
+  slideinMenu.classList.remove("open");
+})
+
