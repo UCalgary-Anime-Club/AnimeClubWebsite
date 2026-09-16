@@ -1,12 +1,16 @@
+.events-page {
+  margin-top: 150px;
+}
+
 .events-grid {
-  display: grid;
+  display: none;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   
 }
 
 .event-info-grid {
-  display: grid;
+  display: none;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 20px;
   border: 1px solid rgb(212, 169, 27);
