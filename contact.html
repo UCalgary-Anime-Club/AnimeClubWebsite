@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="Design/all.css">
-    <link rel="stylesheet" href="Design/header.css">
-    <link rel="stylesheet" href="Design/contact.css">    
-  </head>
-  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="Design/all.css">
+    <link rel="stylesheet" href="Design/homepage.css">
+    <link rel="stylesheet" href="Design/header.css">
+    <link rel="stylesheet" href="Design/about.css">
+    <link rel="stylesheet" href="Design/events.css">
+    <link rel="stylesheet" href="Design/contact.css">
+    <link rel="stylesheet" href="Design/sponsers.css">
+  </head>
+
+  <body>  
     <header class="header">
       <div class="left-section">
         <img class="logo">
@@ -15,23 +23,38 @@
         </a>
       </div>
 
-      <nav>
-        <div class="right-section">
-          <a href="about.html">
-            About Us
-          </a>
-          <a href="homepage.html#events">
-            Events
-          </a>
-          <a href="sponsers.html">
-            Sponsers
-          </a>
-          <a href="contact.html">
-            Contact
-          </a>
-        </div>
+      <nav class="header-menu">
+        <a href="about.html">
+          About Us
+        </a>
+        <a href="homepage.html#events">
+          Events
+        </a>
+        <a href="sponsers.html">
+          Sponsers
+        </a>
+        <a href="contact.html">
+          Contact
+        </a>
       </nav>
+
       
+      <img class="menu-icon" id= "menuIcon" src="pictures/hamburger-menu.svg">
+
+      <div class="slidein-menu" id="slideinMenu">
+        <a href="about.html">
+          About Us
+        </a>
+        <a href="homepage.html#events">
+          Events
+        </a>
+        <a href="sponsers.html">
+          Sponsers
+        </a>
+        <a href="contact.html">
+          Contact
+        </a>
+      </div>
     </header>
 
 
@@ -47,22 +70,29 @@
             <p class="heading">
               What is your name?
             </p>            
-            <input class="name-bar" type="text" id="name" placeholder="Your Name">
+            <input class="name-bar" type="text" id="name" name="name" placeholder="Your name" required>
+            
+            <p class="heading">
+              What is the subject of your email?
+            </p>            
+            <input class="subject-bar" type="text" id="subject" name="subject" placeholder="Your subject" required>
             
             <p class="heading">
               What is your email address?
             </p>
-            <input class="email-bar" type="email" id="email" placeholder="Your email">
+            <input class="email-bar" type="email" id="email" name="email" placeholder="Your email" required>
             
             <p class="heading">
               What is your message?
             </p>
-            <textarea class="message-bar" id="message" placeholder="Your message"></textarea>
+            <textarea class="message-bar" id="message" name="message" placeholder="Your message" required></textarea>
             
 
             <button class="send" type="submit">
               Send
             </button>
+
+            <p id="sendMessage"></p>
           </form>
           
 
@@ -90,16 +120,14 @@
               <a href="https://discord.gg/wBKq22DBD" target="_blank">
                 Discord
               </a>
-            </div>
-            
+            </div>            
           </div>
           
-          
-          
-
     </div>
   </section>
 
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="contact.js"></script>
+  <script src="dropdown-menu.js"></script>  
   </body>
-  
 </html>

@@ -42,7 +42,7 @@
   align-items: center;
   justify-content: space-between;
   margin-right: 50px;
-  flex-shrink: 1;
+  
 }
 
 .slidein-menu {
@@ -73,7 +73,7 @@ opens a slide-in version of the menu when menu-icon is clicked
 */
 .slidein-menu.open {
   transform: translateX(0);
-  }
+}
 
 
 .menu-icon {
