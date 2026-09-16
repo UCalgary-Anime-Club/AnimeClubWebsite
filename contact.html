@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="Design/all.css">
     <link rel="stylesheet" href="Design/homepage.css">
@@ -15,40 +13,44 @@
     <link rel="stylesheet" href="Design/footer.css">
   </head>
 
-  <body>  
+  <body class="contact-body">  
     <div id="header-container"></div>
 
     <script src="header.js"></script>
 
 
-    <section class="contact">
-      <div class="contact-page">
+      <section class="contact-page">
           <div>
             <p class="heading">
-              CONTACT US!
+              GET IN TOUCH
             </p>
           </div>
 
+          <p>
+              Let us know if you have any questions and we'll get back to you as soon as possible!
+          </p>
+
+
           <form id="contactForm">
-            <p class="heading">
-              What is your name?
+            <p>
+              Your name*
             </p>            
-            <input class="name-bar" type="text" id="name" name="name" placeholder="Your name" required>
+            <input class="name-bar" type="text" id="name" name="name" required>
             
-            <p class="heading">
-              What is the subject of your email?
+            <p>
+              Subject of your Email*
             </p>            
-            <input class="subject-bar" type="text" id="subject" name="subject" placeholder="Your subject" required>
+            <input class="subject-bar" type="text" id="subject" name="subject" required>
             
-            <p class="heading">
-              What is your email address?
+            <p>
+              Your Email*
             </p>
-            <input class="email-bar" type="email" id="email" name="email" placeholder="Your email" required>
+            <input class="email-bar" type="email" id="email" name="email" required>
             
-            <p class="heading">
-              What is your message?
+            <p>
+              Your message*
             </p>
-            <textarea class="message-bar" id="message" name="message" placeholder="Your message" required></textarea>
+            <textarea class="message-bar" id="message" name="message" required></textarea>
             
 
             <button class="send" type="submit">
@@ -83,8 +85,7 @@
             </div>            
           </div>
           
-    </div>
-  </section>
+        </section>
 
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="contact.js"></script>

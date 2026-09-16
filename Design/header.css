@@ -29,12 +29,12 @@
 }
 
 
-
-.club-name {
-  margin-left: 40px;
-  font-size: 40px;
-  color: rgb(197, 152, 5);
+.logo {
+  margin-left: 20px;
+  width: 100px;
+  border-radius: 100%;
 }
+
 
 .header-menu {
   width: 550px;
