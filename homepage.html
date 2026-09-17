@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="Design/header.css">
     <link rel="stylesheet" href="Design/about.css">
     <link rel="stylesheet" href="Design/events.css">
+    <link rel="stylesheet" href="Design/contact.css">
     <link rel="stylesheet" href="Design/sponsers.css">
     <link rel="stylesheet" href="Design/footer.css">
   </head>
@@ -18,9 +19,45 @@
   
   <body>
     
-    <div id="header-container"></div>
+    <header class="header">
+      <div class="left-section">
+        <a class="club-name" href="homepage.html">
+          <img class="logo" src="pictures/Logo Version 2 (3).jpg">
+        </a>
+      </div>
 
-    <script src="header.js"></script>
+      <nav class="header-menu">
+        <a href="about.html">
+          About Us
+        </a>
+        <a href="events.html">
+          Events
+        </a>
+        <a href="sponsers.html">
+          Sponsers
+        </a>
+        <a href="contact.html">
+          Contact
+        </a>
+      </nav>
+
+      <img class="menu-icon" id= "menuIcon" src="pictures/hamburger-menu.svg">
+
+      <div class="slidein-menu" id="slideinMenu">
+        <a href="about.html">
+          About Us
+        </a>
+        <a href="events.html">
+          Events
+        </a>
+        <a href="sponsers.html">
+          Sponsers
+        </a>
+        <a href="contact.html">
+          Contact
+        </a>
+      </div>
+    </header>
 
     <main>
       <img class="banner" id= "banner" src="pictures/Website-banner.png">
@@ -94,8 +131,11 @@
         </p>
       </section>
 
+      <div id="footer-container"></div>
+
+      <script src="footer.js"></script>
     </main>
     
-    <script src="dropdown-menu.js"></script>
+    <script src="slideIn-menu.js"></script>
   </body>
 </html>

@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-  fetch("header.html")
+  fetch("footer.html")
     .then(function(response) {
       return response.text();
     })
     .then(function(data) {
 
-      document.getElementById("header-container").innerHTML = data;
+      document.getElementById("footer-container").innerHTML = data;
 
         // Get the hamburger menu after the header has been added
         const body = document.body;

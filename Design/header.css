@@ -30,9 +30,11 @@
 
 
 .logo {
-  margin-left: 20px;
-  width: 100px;
+  margin-top: 5px;
+  margin-left: 40px;
+  width: 110px;
   border-radius: 100%;
+  border: solid rgb(61, 55, 55) 1px;
 }
 
 
