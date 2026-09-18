@@ -64,14 +64,11 @@ function Header() {
         <a href="sponsers.html">
           Sponsers
         </a>
-        
+
         <a href="contact.html">
           Contact
         </a>
       </div>
-
-      
-
       
     </header>
   );
