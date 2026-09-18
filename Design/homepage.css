@@ -27,7 +27,7 @@
   flex: 1;
 }
 
-.upcoming-events {
+.upcoming-events, .suggestions {
   font-family: "Times New Roman";
   font-weight: 700;
   width: 400px;
@@ -39,7 +39,7 @@
   border: 2px solid rgb(46, 4, 4);
 }
 
-.upcoming-events:hover {
+.upcoming-events:hover, .suggestions:hover {
   background-color: rgb(187, 21, 21);
   color: rgb(241, 238, 238);
   border: 2px solid rgb(95, 4, 4);

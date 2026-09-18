@@ -1,5 +1,11 @@
+.events-body {
+  background-color: rgb(13, 10, 1);
+}
+
 .events-page {
   margin-top: 150px;
+  color: white;
+  font-size: 20px;
 }
 
 .events-grid {

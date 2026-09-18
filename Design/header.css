@@ -37,6 +37,9 @@
   border: solid rgb(61, 55, 55) 1px;
 }
 
+.logo:hover {
+  opacity: 0.85;
+}
 
 .header-menu {
   width: 550px;

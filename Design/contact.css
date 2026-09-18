@@ -17,6 +17,10 @@
 
 }
 
+.subtext {
+  text-align: center;
+}
+
 .name-bar, .subject-bar, .email-bar {
   width: 500px;
   height: 30px;
