@@ -8,6 +8,10 @@ import Contact from "./pages/Contact";
 import Sponsers from "./pages/Sponsers";
 import "./App.css";
 import "./Homepage.css";
+import "./About.css";
+import "./Events.css";
+import "./Sponsers.css";
+import "./Contact.css";
 
 function App() {
   return (

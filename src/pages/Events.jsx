@@ -1,62 +1,65 @@
 function Events() {
   return (
-    <section class="events-page">
-          <p class="heading">
-            EVENTS
-          </p>
-          <p>
-            We host several events throughout the year! Stay tuned for our upcoming events!
-          </p>
+    <body className="events-body">
+      <section className="events-page">
+        <p className="heading">
+          EVENTS
+        </p>
+        <p>
+          We host several events throughout the year! Stay tuned for our upcoming events!
+        </p>
 
-          <div class="events-grid"> 
-            
-            <div class="event-info-grid">
-              <p class="event-title">
-                <strong>Event Title</strong>
-              </p>
-              <p class="event-date">
-                Date: TBA
-              </p>
-              <p class="event-time">
-                Time: TBA
-              </p>
-              <p class="event-location">
-                Location: TBA
-              </p>
-            </div>
-
-            <div class="event-info-grid">
-              <p class="event-title">
-                <strong>Event Title</strong>
-              </p>
-              <p class="event-date">
-                Date: TBA
-              </p>
-              <p class="event-time">
-                Time: TBA
-              </p>
-              <p class="event-location">
-                Location: TBA
-              </p>
-            </div>
-
-            <div class="event-info-grid">
-              <p class="event-title">
-                <strong>Event Title</strong>
-              </p>
-              <p class="event-date">
-                Date: TBA
-              </p>
-              <p class="event-time">
-                Time: TBA
-              </p>
-              <p class="event-location">
-                Location: TBA
-              </p>
-            </div>
+        <div className="events-grid"> 
+          
+          <div className="event-info-grid">
+            <p className="event-title">
+              <strong>Event Title</strong>
+            </p>
+            <p className="event-date">
+              Date: TBA
+            </p>
+            <p className="event-time">
+              Time: TBA
+            </p>
+            <p className="event-location">
+              Location: TBA
+            </p>
           </div>
 
-    </section>
+          <div className="event-info-grid">
+            <p className="event-title">
+              <strong>Event Title</strong>
+            </p>
+            <p className="event-date">
+              Date: TBA
+            </p>
+            <p className="event-time">
+              Time: TBA
+            </p>
+            <p className="event-location">
+              Location: TBA
+            </p>
+          </div>
+
+          <div className="event-info-grid">
+            <p className="event-title">
+              <strong>Event Title</strong>
+            </p>
+            <p className="event-date">
+              Date: TBA
+            </p>
+            <p className="event-time">
+              Time: TBA
+            </p>
+            <p className="event-location">
+              Location: TBA
+            </p>
+          </div>
+        </div>
+
+      </section>
+    </body>
+
   )
 }
 

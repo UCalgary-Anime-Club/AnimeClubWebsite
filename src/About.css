@@ -1,0 +1,44 @@
+.about-page {
+  margin-top: 150px;
+
+}
+
+.profile-pic {
+  width: 75px;
+  border-radius: 50%;
+  
+}
+
+.about-grid {
+  margin: 0 50px 0 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  
+}
+
+.about-items {
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 1fr 1fr;
+  padding: 20px;
+  border: 1px solid rgb(212, 169, 27);
+  border-radius: 30px;
+  background-color: rgb(54, 1, 1);
+  color: rgb(208, 208, 208);
+  align-items: center;
+  justify-content: center;
+}
+
+.name, .position, .about-text {
+  text-align: center;
+}
+
+.name, .position {
+  color: rgb(197, 152, 5);
+}
+
+.name {
+  font-size: 23px;
+  font-weight: 700;
+}
