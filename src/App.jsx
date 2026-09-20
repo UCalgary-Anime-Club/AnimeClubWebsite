@@ -6,7 +6,9 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import Sponsers from "./pages/Sponsers";
+import Footer from "./components/Footer";
 import "./App.css";
+import "./Footer.css";
 import "./Homepage.css";
 import "./About.css";
 import "./Events.css";
@@ -25,7 +27,10 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Sponsers" element={<Sponsers />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>  
+
   );
 }
 

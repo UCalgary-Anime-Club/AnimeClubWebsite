@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function Homepage() {
   return (
     <main>
@@ -25,22 +27,22 @@ function Homepage() {
             </p>
           </div>
             
-            <a href="events.html">
+            <Link to="events.html">
               <button className="upcoming-events">
                 Check Out Our Upcoming Events!
               </button>
-            </a>
+            </Link>
 
           <div>
             <p className="heading">
               GIVE US EVENT SUGGESTIONS
             </p>
-            <a href="contact.html">
+            <Link to="contact.html">
               <button className="suggestions">
                 what kind of events would YOU be interested in!
 
               </button>
-            </a>
+            </Link>
           </div>
         </div>
   

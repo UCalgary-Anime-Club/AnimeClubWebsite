@@ -1,0 +1,42 @@
+.footer {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(153, 82, 82);
+  
+
+  
+  font-weight: 700;
+  font-style: normal;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(197, 152, 5);
+
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 50px;
+}
+
+
+
+
+.footer-menu {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+  
+}
