@@ -1,4 +1,5 @@
 import {useState, useEffect} from "react";
+import {Link} from "react-router-dom";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,26 +21,26 @@ function Header() {
   return (
     <header className="header">
       <div className="left-section">
-        <a href="/">
+        <Link to="/">
           <img 
             className="logo" src="/pictures/Logo Version 2 (3).jpg"
           />
-        </a>
+        </Link>
       </div>
 
       <nav className="header-menu">
-        <a href="about.html">
+        <Link to="/About">
           About Us
-        </a>
-        <a href="events.html">
+        </Link>
+        <Link to="/Events">
           Events
-        </a>
-        <a href="sponsers.html">
+        </Link>
+        <Link to="/Sponsers">
           Sponsers
-        </a>
-        <a href="contact.html">
+        </Link>
+        <Link to="/Contact">
           Contact
-        </a>
+        </Link>
       </nav>
 
       <button 
@@ -53,21 +54,18 @@ function Header() {
       </button>
 
       <div className={`side-menu ${menuOpen ? "open" : ""}`}>
-        <a href="about.html">
+        <Link to="/About">
           About Us
-        </a>
-
-        <a href="events.html">
+        </Link>
+        <Link to="/Events">
           Events
-        </a>
-
-        <a href="sponsers.html">
+        </Link>
+        <Link to="/Sponsers">
           Sponsers
-        </a>
-
-        <a href="contact.html">
+        </Link>
+        <Link to="/Contact">
           Contact
-        </a>
+        </Link>
       </div>
       
     </header>
