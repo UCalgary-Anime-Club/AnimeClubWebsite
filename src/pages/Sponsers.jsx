@@ -1,8 +1,13 @@
 function Sponsers() {
   return (
-    <h1>
-      Sponsers
-    </h1>
+    <section class="sponsers"> 
+      <p class="heading">
+        SPONSERS
+      </p>
+      <p>
+        Stay tuned for more information!
+      </p>
+    </section>
   )
 }
 
