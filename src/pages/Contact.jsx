@@ -1,6 +1,40 @@
+import {useState} from "react";
+import emailjs from "@emailjs/browser";
+
+
 function Contact() {
+  const [sendMessage, setSendMessage] = useState("");
+  const EMAILJS_PUBLIC_KEY = "j09IoQQcEXl1cRnhm";
+  const EMAILJS_SERVICE_ID = "service_uveckqc";
+  const EMAILJS_TEMPLATE_ID = "template_4hfbvhm";
+
+  function handleSubmit(event) {
+
+    event.preventDefault();
+
+    setSendMessage("sending...");
+
+    emailjs.sendForm(
+      EMAILJS_SERVICE_ID,
+      EMAILJS_TEMPLATE_ID,
+      event.target,
+      EMAILJS_PUBLIC_KEY
+    )
+    
+    .then(() => {
+      setSendMessage("Your message was sent!");
+      event.target.reset();
+    })
+    
+    .catch((error) => {
+      console.log(error);
+      setSendMessage("Something went wrong, please try again.");
+    });
+  }
+
+
   return (
-    <body className="contact-body">
+    <main className="contact-body">
       <section className="contact-page">
         <div>
           <p className="heading">
@@ -15,7 +49,7 @@ function Contact() {
         </div>
 
 
-        <form id="contactForm">
+        <form id="contactForm" onSubmit={handleSubmit}>
           <p>
             Your name*
           </p>            
@@ -34,14 +68,14 @@ function Contact() {
           <p>
             Your message*
           </p>
-          <textarea className="message-bar" id="message" name="message" required></textarea>
+          <textarea className="message-bar" id="message" name="message" required />
           
 
           <button className="send" type="submit">
             Send
           </button>
 
-          <p id="sendMessage"></p>
+          <p id="sendMessage"> {sendMessage} </p>
         </form>
         
 
@@ -70,9 +104,9 @@ function Contact() {
         </div>
             
       </section>
-    </body>
+    </main>
 
-  )
+  );
 }
 
 export default Contact;
