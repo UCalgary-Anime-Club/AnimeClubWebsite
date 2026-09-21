@@ -7,12 +7,13 @@ import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import Sponsors from "./pages/Sponsors";
 import Footer from "./components/Footer";
+
 import "./App.css";
 import "./Footer.css";
 import "./Homepage.css";
 import "./About.css";
 import "./Events.css";
-import "./Sponsers.css";
+import "./Sponsors.css";
 import "./Contact.css";
 
 function App() {

@@ -1,6 +1,5 @@
 function Events() {
   return (
-    <body className="events-body">
       <section className="events-page">
         <p className="heading">
           EVENTS
@@ -58,7 +57,6 @@ function Events() {
         </div>
 
       </section>
-    </body>
 
   )
 }
