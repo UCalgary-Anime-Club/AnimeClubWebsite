@@ -8,13 +8,13 @@ import Contact from "./pages/Contact";
 import Sponsors from "./pages/Sponsors";
 import Footer from "./components/Footer";
 
-import "./App.css";
-import "./Footer.css";
-import "./Homepage.css";
-import "./About.css";
-import "./Events.css";
-import "./Sponsors.css";
-import "./Contact.css";
+import "./Styles/Header.css";
+import "./Styles/Homepage.css";
+import "./Styles/About.css";
+import "./Styles/Events.css";
+import "./Styles/Sponsors.css";
+import "./Styles/Contact.css";
+import "./Styles/Footer.css";
 
 function App() {
   return (
