@@ -41,13 +41,25 @@
   background-color: rgb(95, 4, 4);
   color: rgb(194, 183, 183);
   border: 2px solid rgb(46, 4, 4);
+  margin-top: 5px;
 }
 
+.suggestions {
+  margin-top: 10px;
+}
 .upcoming-events:hover, .suggestions:hover {
   background-color: rgb(187, 21, 21);
   color: rgb(241, 238, 238);
   border: 2px solid rgb(95, 4, 4);
   cursor: pointer;
+}
+
+.home-buttons {
+  text-align: center;
+}
+
+.homepage-body .heading {
+  margin-bottom: 0px;
 }
 
 @media (max-width: 750px) {
@@ -70,5 +82,13 @@
 }
 
 .memberships .heading, .memberships .text {
+  justify-self: center;
+}
+
+.more {
+
+  padding-bottom: 15px;
+  margin: 0;
+  font-size: 20px;
   justify-self: center;
 }
