@@ -1,4 +1,4 @@
-function Sponsers() {
+function Sponsors() {
   return (
     <body className="sponsers-body">
       <section className="sponsers"> 
@@ -14,4 +14,4 @@ function Sponsers() {
   )
 }
 
-export default Sponsers;
+export default Sponsors;
