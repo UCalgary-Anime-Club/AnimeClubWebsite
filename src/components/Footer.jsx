@@ -1,12 +1,12 @@
 function Footer() {
   return (
     <section className="footer">
-      <div className="email">
+      <div className="left-section">
         <p className="text">
           Email us if you have questions!
         </p>
 
-        <p>
+        <p className="email">
           animeclubuofc@gmail.com
         </p>
 

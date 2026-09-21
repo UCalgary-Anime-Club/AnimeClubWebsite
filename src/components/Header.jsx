@@ -35,8 +35,8 @@ function Header() {
         <Link to="/Events">
           Events
         </Link>
-        <Link to="/Sponsers">
-          Sponsers
+        <Link to="/Sponsors">
+          Sponsors
         </Link>
         <Link to="/Contact">
           Contact
@@ -60,8 +60,8 @@ function Header() {
         <Link to="/Events">
           Events
         </Link>
-        <Link to="/Sponsers">
-          Sponsers
+        <Link to="/Sponsors">
+          Sponsors
         </Link>
         <Link to="/Contact">
           Contact

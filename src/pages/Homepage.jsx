@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 function Homepage() {
   return (
-    <main>
+    <main className="homepage-body">
       <img className="banner" id="banner" src="/pictures/Website-banner.png"/>
       <section className="home">
 
