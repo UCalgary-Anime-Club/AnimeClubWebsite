@@ -29,6 +29,9 @@ function Header() {
       </div>
 
       <nav className="header-menu">
+        <Link to="/">
+          Home
+        </Link>
         <Link to="/About">
           About Us
         </Link>
