@@ -23,7 +23,7 @@ function Header() {
       <div className="left-section">
         <Link to="/">
           <img 
-            className="logo" src="/pictures/Logo Version 2 (3).jpg"
+            className="logo" src="pictures/Logo Version 2 (3).jpg"
           />
         </Link>
       </div>
@@ -52,7 +52,7 @@ function Header() {
       >
         <img 
           className="menu-icon"
-          src="./pictures/hamburger-menu.svg"
+          src="pictures/hamburger-menu.svg"
         />
       </button>
 
