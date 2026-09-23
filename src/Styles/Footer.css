@@ -1,5 +1,4 @@
 .footer {
-  
 
   display: flex;
   flex-direction: row;
@@ -9,10 +8,9 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgb(153, 82, 82);
+  background-color: rgb(194, 183, 183);
   
 
-  
   font-weight: 700;
   font-style: normal;
 
@@ -22,17 +20,22 @@
 
 }
 
-.email {
+.left-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 50px;
+}
+
+.text, .email {
+  margin: 10px;
+  font-size: 20px;
 }
 
 
 
-
 .footer-menu {
-  width: 550px;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,3 +43,12 @@
   
 }
 
+@media (max-width: 1000px) {
+  .footer {
+    flex-direction: column;
+  }
+  
+  .left-section {
+    padding-left: 0;
+  }
+}

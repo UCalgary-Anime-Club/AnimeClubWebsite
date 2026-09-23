@@ -1,0 +1,13 @@
+.sponsors-page {
+  background-color: rgb(54, 1, 1);
+  height: 100vh;
+  padding-top: 50px;
+}
+.sponsors {
+  margin-top: 150px;
+  color: white;
+
+  font-size: 20px;
+  text-align: center;
+
+}

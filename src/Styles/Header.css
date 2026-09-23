@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
 
   position: fixed;
   top: 0;
@@ -23,11 +22,6 @@
 
 }
 
-.left-section {
-  display: flex;
-  align-items: center;
-}
-
 
 .logo {
   margin-top: 5px;
@@ -35,6 +29,8 @@
   width: 110px;
   border-radius: 100%;
   border: solid rgb(61, 55, 55) 1px;
+  margin-left: 50px;
+
 }
 
 .logo:hover {
@@ -42,15 +38,16 @@
 }
 
 .header-menu {
-  width: 550px;
+  width: 650px;
+  right: 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  margin-left: auto;
   margin-right: 50px;
-  
+
 }
 
-.slidein-menu {
+.side-menu {
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -76,8 +73,9 @@
 /*
 opens a slide-in version of the menu when menu-icon is clicked
 */
-.slidein-menu.open {
+.side-menu.open {
   transform: translateX(0);
+  border-left: 2px solid gray;
 }
 
 
@@ -90,19 +88,25 @@ opens a slide-in version of the menu when menu-icon is clicked
 /*
 when screen size decreases, header menu changes to menu-icon
 */
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   .header-menu {
     display: none;
   }
 
   .menu-icon {
     display: block;
-    margin-right: 50px;
     width: 50px;
     cursor: pointer;
   }
 }
 
+.menu-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 50px;
+}
 
 a {
   font-size: 30px;

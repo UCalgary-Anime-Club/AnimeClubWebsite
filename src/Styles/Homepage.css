@@ -1,0 +1,112 @@
+.homepage-body {
+  background-color: rgb(56, 35, 35);
+  
+}
+
+.banner {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.home-logo {
+   margin-top: 5px;
+  width: 400px;
+  border-radius: 100%;
+  border: solid rgb(61, 55, 55) 5px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px 50px 20px;
+  gap: 50px;
+}
+
+
+.general-info {
+  flex: 1;
+  color: rgb(194, 183, 183);
+  text-align: center;
+  font-size: 20px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.upcoming-events, .suggestions {
+  font-family: "Times New Roman";
+  font-weight: 700;
+  width: 400px;
+  height: 100px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: rgb(171, 67, 67);
+  color: rgb(194, 183, 183);
+  border: 3px solid #383838;
+  margin-top: 5px;
+  flex-shrink: 1;
+
+}
+
+
+.upcoming-events:hover, .suggestions:hover {
+  background-color: rgb(187, 21, 21);
+  color: rgb(241, 238, 238);
+  border: 2px solid rgb(95, 4, 4);
+  cursor: pointer;
+}
+
+
+.homepage-body .heading {
+  margin-bottom: 0px;
+}
+
+
+.mascot {
+  width: 300px;
+  flex-shrink: 1;
+  max-width: 40%;
+  height: auto;
+  margin-left: 75px;
+  padding-bottom: 50px;
+}
+
+.memberships-section {
+  padding-top: 50px;
+  display: flex;
+  color: rgb(194, 183, 183);
+  text-align: center;
+  font-size: 20px;
+  justify-content:space-evenly;
+  align-items: center;
+  
+}
+
+@media (max-width: 1000px) {
+  .banner {
+    margin-top: 100px;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .mascot {
+    width: 80%;
+    max-width: 200px;
+    margin-left: 0px;
+  }
+
+  .general-info {
+    width: 100%;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+  }
+}

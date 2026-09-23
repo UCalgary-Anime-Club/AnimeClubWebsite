@@ -1,11 +1,10 @@
-.events-body {
-  background-color: rgb(13, 10, 1);
-}
-
 .events-page {
-  margin-top: 150px;
+  padding-top: 150px;
   color: white;
+  background-color: rgb(54, 1, 1);
   font-size: 20px;
+  text-align: center;
+  height: 100vh;
 }
 
 .events-grid {
