@@ -38,7 +38,6 @@ function Homepage() {
             
 
           <div className="home-buttons">
-
             <Link to="/Events">
               <button className="upcoming-events">
                 Check Out Our Upcoming Events!

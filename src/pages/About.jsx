@@ -6,7 +6,7 @@ function About() {
       </p>
       <div className="about-grid">
         <div className="about-items">
-          <img className="profile-pic" src="pictures/Luna-explaining.png"/>
+          <img className="profile-pic" src="pictures/unknown-dude.jpg"/>
           <div className="exec-info">
               <p className="name">
               <strong>Alyssa</strong>
@@ -22,7 +22,7 @@ function About() {
           
         
         <div className="about-items">
-          <img className="profile-pic" src="pictures/Luna-explaining.png"/>
+          <img className="profile-pic" src="pictures/unknown-dude.jpg"/>
           <div className="exec-info">
             <p className="name">
               <strong>Andrew</strong>
@@ -37,7 +37,7 @@ function About() {
         </div>
 
         <div className="about-items">
-          <img className="profile-pic" src="pictures/Luna-explaining.png"/>
+          <img className="profile-pic" src="pictures/unknown-dude.jpg"/>
           <div className="exec-info">
             <p className="name">
               <strong>Harsh</strong>
@@ -52,7 +52,7 @@ function About() {
         </div>
 
         <div className="about-items">
-          <img className="profile-pic" src="pictures/Luna-explaining.png"/>
+          <img className="profile-pic" src="pictures/unknown-dude.jpg"/>
           <div className="exec-info">
             <p className="name">
               <strong>Jerry</strong>
@@ -67,7 +67,7 @@ function About() {
         </div>
 
         <div className="about-items">
-          <img className="profile-pic" src="pictures/Luna-explaining.png"/>
+          <img className="profile-pic" src="pictures/unknown-dude.jpg"/>
           <div className="exec-info">
             <p className="name">
               <strong>KB</strong>

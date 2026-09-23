@@ -75,6 +75,7 @@ opens a slide-in version of the menu when menu-icon is clicked
 */
 .side-menu.open {
   transform: translateX(0);
+  border-left: 2px solid gray;
 }
 
 
@@ -87,14 +88,13 @@ opens a slide-in version of the menu when menu-icon is clicked
 /*
 when screen size decreases, header menu changes to menu-icon
 */
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   .header-menu {
     display: none;
   }
 
   .menu-icon {
     display: block;
-    margin-right: 50px;
     width: 50px;
     cursor: pointer;
   }
@@ -103,7 +103,9 @@ when screen size decreases, header menu changes to menu-icon
 .menu-button {
   background: none;
   border: none;
-  padding: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 50px;
 }
 
 a {

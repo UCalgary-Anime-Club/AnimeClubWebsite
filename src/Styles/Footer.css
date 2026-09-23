@@ -42,3 +42,13 @@
   margin-right: 50px;
   
 }
+
+@media (max-width: 1000px) {
+  .footer {
+    flex-direction: column;
+  }
+  
+  .left-section {
+    padding-left: 0;
+  }
+}
