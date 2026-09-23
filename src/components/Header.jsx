@@ -52,7 +52,7 @@ function Header() {
       >
         <img 
           className="menu-icon"
-          src="/pictures/hamburger-menu.svg"
+          src="./pictures/hamburger-menu.svg"
         />
       </button>
 

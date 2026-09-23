@@ -3,11 +3,11 @@ import {Link} from "react-router-dom";
 function Homepage() {
   return (
     <main className="homepage-body">
-      <img className="banner" id="banner" src="/pictures/Website-banner.png"/>
+      <img className="banner" id="banner" src="./pictures/Website-banner.png"/>
       
       <section className="home">
         
-        <img className="home-logo" src="/pictures/Logo Version 2 (3).jpg"/>
+        <img className="home-logo" src="./pictures/Logo Version 2 (3).jpg"/>
         <div className="general-info">
           <div>
             <p className="heading">
@@ -57,7 +57,7 @@ function Homepage() {
 
       
       <section className="memberships-section">
-        <img className="mascot" src="public/pictures/Full-Luna-explaining.png"/>
+        <img className="mascot" src="./public/pictures/Full-Luna-explaining.png"/>
         <div className="memberships">          
           <p className="heading">
             MEMBERSHIP
