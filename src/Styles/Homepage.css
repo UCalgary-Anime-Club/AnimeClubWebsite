@@ -108,5 +108,6 @@
 
   .home-buttons {
     flex-direction: column;
+    flex-shrink: 1;
   }
 }

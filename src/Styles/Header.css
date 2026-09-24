@@ -89,6 +89,15 @@ opens a slide-in version of the menu when menu-icon is clicked
 when screen size decreases, header menu changes to menu-icon
 */
 @media (max-width: 1000px) {
+  .logo {
+    display: none;
+  }
+
+  .header {
+    flex-shrink: 1;
+    height: 100px;
+  }
+
   .header-menu {
     display: none;
   }
@@ -97,6 +106,11 @@ when screen size decreases, header menu changes to menu-icon
     display: block;
     width: 50px;
     cursor: pointer;
+    margin-right: 15px;
+  }
+
+  .side-menu {
+    width: 35%;
   }
 }
 

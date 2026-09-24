@@ -57,6 +57,9 @@ function Header() {
       </button>
 
       <div className={`side-menu ${menuOpen ? "open" : ""}`}>
+        <Link to="/">
+          Home
+        </Link>
         <Link to="/About">
           About Us
         </Link>

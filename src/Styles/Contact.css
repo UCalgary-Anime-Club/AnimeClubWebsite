@@ -70,8 +70,8 @@
 
 @media (max-width: 1000px) {
   .contact-page {
-    width: 90%;
-
+    max-width: 95vw;
+    
   }
 
   .subtext {
@@ -79,7 +79,7 @@
   }
 
   .contactForm {
-    width: 70%;
+    width: 80%;
     max-width: 700px;
     margin: 0 auto;
   }
