@@ -14,11 +14,25 @@
   font-weight: 700;
   font-style: normal;
 
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-color: rgb(197, 152, 5);
+  border-bottom: 3px solid gray;
 
 }
+
+a {
+  font-size: 30px;
+  color: rgb(197, 152, 5);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(226, 223, 58);
+  cursor: pointer;
+}
+
+a:visited {
+  color: rgb(197, 152, 5);
+}
+
 
 
 .logo {
@@ -121,17 +135,3 @@ when screen size decreases, header menu changes to menu-icon
   z-index: 100;
 }
 
-a {
-  font-size: 30px;
-  color: rgb(197, 152, 5);
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(226, 223, 58);
-  cursor: pointer;
-}
-
-a:visited {
-  color: rgb(197, 152, 5);
-}
