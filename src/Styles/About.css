@@ -13,12 +13,6 @@
   
 }
 
-@media (max-width: 1000px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .about-items {
   display: flex;
   gap: 20px;
@@ -47,4 +41,21 @@
 .name {
   font-size: 23px;
   font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-items {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .about-items {
+    width: 80vw;
+    flex-direction: column;
+  }
 }

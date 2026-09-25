@@ -46,7 +46,7 @@ function Homepage() {
 
             <Link to="/Contact">
               <button className="suggestions">
-                what kind of events would YOU be interested in!
+                What kind of events would YOU be interested in!
               </button>
             </Link>
 

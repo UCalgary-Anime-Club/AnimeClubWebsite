@@ -32,15 +32,16 @@
   font-size: 20px;
 }
 
-
+.footer-menu img {
+  width: 40px;
+}
 
 .footer-menu {
-  width: 400px;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  margin-right: 50px;
-  
+  justify-content: center;
+  width: 40px;
 }
 
 @media (max-width: 1000px) {

@@ -9,7 +9,7 @@
 }
 
 .home-logo {
-   margin-top: 5px;
+  margin-top: 5px;
   width: 400px;
   border-radius: 100%;
   border: solid rgb(61, 55, 55) 5px;
@@ -110,4 +110,17 @@
     flex-direction: column;
     flex-shrink: 1;
   }
+
+  .memberships-section {
+    width: 96vw;
+  }
+  
+}
+
+@media (max-width: 300px) {
+  .upcoming-events, .suggestions {
+    font-weight: 700;
+    width: 80vw;
+    height: 100px;
+  }  
 }
